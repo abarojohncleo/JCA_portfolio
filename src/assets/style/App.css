@@ -1,0 +1,124 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#home {
+  display: flex;
+}
+
+.divider {
+  background-color: white;
+  width: 20px;
+  border-radius: 50px;
+}
+
+/* side bar */
+.sidebar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 5px 80px ;
+}
+
+.sidebar h1 {
+  text-align: left;
+}
+
+.hire-me {
+  height: 50px;
+  font-size: 30px;
+  color: white;
+  background-color: #5e17eb;
+  border: white solid 2px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* main */
+.main  {
+  height: 80vh;
+}
+
+/* navigation bar */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  width: 70%;
+  align-items: center;
+}
+
+.nav-button {
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* hero */
+.hero {
+  display: flex;
+  margin: 100px;
+  text-align: right;
+}
+
+.hero-image {
+  margin: 10px;
+  padding: 10px 10px 10px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  padding: 50px 20px;
+}
+
+.title {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 700;
+}
+
+.hero-image {
+  border-radius: 50px;
+  border: white solid 1px;
+  position: relative;
+  padding: 2px;
+}
+
+img {
+  height: 350px;
+  width: 300px;
+  border-radius: 50px;
+}
+
+/* Services */
+#services {
+  border: red solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding:100px 10px;
+}
+
+/* Contacts */
+#contacts {
+  height: 100vh;
+  border: blue solid 2px;
+}
+/* Works */
+#works {
+  height: 100vh;
+  border: blue solid 2px;
+}
